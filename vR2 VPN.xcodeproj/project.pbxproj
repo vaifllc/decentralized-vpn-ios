@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B74EA9292AAEE872000391C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74EA9282AAEE872000391C9 /* AppDelegate.swift */; };
+		B74EA92B2AAEE872000391C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74EA92A2AAEE872000391C9 /* SceneDelegate.swift */; };
+		B74EA92D2AAEE872000391C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74EA92C2AAEE872000391C9 /* ViewController.swift */; };
+		B74EA9302AAEE872000391C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B74EA92E2AAEE872000391C9 /* Main.storyboard */; };
+		B74EA9332AAEE872000391C9 /* vR2_VPN.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B74EA9312AAEE872000391C9 /* vR2_VPN.xcdatamodeld */; };
+		B74EA9352AAEE874000391C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B74EA9342AAEE874000391C9 /* Assets.xcassets */; };
+		B74EA9382AAEE874000391C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B74EA9362AAEE874000391C9 /* LaunchScreen.storyboard */; };
+		B74EA9432AAEE874000391C9 /* vR2_VPNTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74EA9422AAEE874000391C9 /* vR2_VPNTests.swift */; };
+		B74EA94D2AAEE874000391C9 /* vR2_VPNUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74EA94C2AAEE874000391C9 /* vR2_VPNUITests.swift */; };
+		B74EA94F2AAEE874000391C9 /* vR2_VPNUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74EA94E2AAEE874000391C9 /* vR2_VPNUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B74EA93F2AAEE874000391C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B74EA91D2AAEE872000391C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B74EA9242AAEE872000391C9;
+			remoteInfo = "vR2 VPN";
+		};
+		B74EA9492AAEE874000391C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B74EA91D2AAEE872000391C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B74EA9242AAEE872000391C9;
+			remoteInfo = "vR2 VPN";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B74EA9252AAEE872000391C9 /* vR2 VPN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vR2 VPN.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B74EA9282AAEE872000391C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B74EA92A2AAEE872000391C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B74EA92C2AAEE872000391C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B74EA92F2AAEE872000391C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B74EA9322AAEE872000391C9 /* vR2_VPN.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = vR2_VPN.xcdatamodel; sourceTree = "<group>"; };
+		B74EA9342AAEE874000391C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B74EA9372AAEE874000391C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B74EA9392AAEE874000391C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B74EA93E2AAEE874000391C9 /* vR2 VPNTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vR2 VPNTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B74EA9422AAEE874000391C9 /* vR2_VPNTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vR2_VPNTests.swift; sourceTree = "<group>"; };
+		B74EA9482AAEE874000391C9 /* vR2 VPNUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vR2 VPNUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B74EA94C2AAEE874000391C9 /* vR2_VPNUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vR2_VPNUITests.swift; sourceTree = "<group>"; };
+		B74EA94E2AAEE874000391C9 /* vR2_VPNUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vR2_VPNUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B74EA9222AAEE872000391C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B74EA93B2AAEE874000391C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B74EA9452AAEE874000391C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B74EA91C2AAEE872000391C9 = {
+			isa = PBXGroup;
+			children = (
+				B74EA9272AAEE872000391C9 /* vR2 VPN */,
+				B74EA9412AAEE874000391C9 /* vR2 VPNTests */,
+				B74EA94B2AAEE874000391C9 /* vR2 VPNUITests */,
+				B74EA9262AAEE872000391C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B74EA9262AAEE872000391C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B74EA9252AAEE872000391C9 /* vR2 VPN.app */,
+				B74EA93E2AAEE874000391C9 /* vR2 VPNTests.xctest */,
+				B74EA9482AAEE874000391C9 /* vR2 VPNUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B74EA9272AAEE872000391C9 /* vR2 VPN */ = {
+			isa = PBXGroup;
+			children = (
+				B74EA9282AAEE872000391C9 /* AppDelegate.swift */,
+				B74EA92A2AAEE872000391C9 /* SceneDelegate.swift */,
+				B74EA92C2AAEE872000391C9 /* ViewController.swift */,
+				B74EA92E2AAEE872000391C9 /* Main.storyboard */,
+				B74EA9342AAEE874000391C9 /* Assets.xcassets */,
+				B74EA9362AAEE874000391C9 /* LaunchScreen.storyboard */,
+				B74EA9392AAEE874000391C9 /* Info.plist */,
+				B74EA9312AAEE872000391C9 /* vR2_VPN.xcdatamodeld */,
+			);
+			path = "vR2 VPN";
+			sourceTree = "<group>";
+		};
+		B74EA9412AAEE874000391C9 /* vR2 VPNTests */ = {
+			isa = PBXGroup;
+			children = (
+				B74EA9422AAEE874000391C9 /* vR2_VPNTests.swift */,
+			);
+			path = "vR2 VPNTests";
+			sourceTree = "<group>";
+		};
+		B74EA94B2AAEE874000391C9 /* vR2 VPNUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B74EA94C2AAEE874000391C9 /* vR2_VPNUITests.swift */,
+				B74EA94E2AAEE874000391C9 /* vR2_VPNUITestsLaunchTests.swift */,
+			);
+			path = "vR2 VPNUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B74EA9242AAEE872000391C9 /* vR2 VPN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B74EA9522AAEE874000391C9 /* Build configuration list for PBXNativeTarget "vR2 VPN" */;
+			buildPhases = (
+				B74EA9212AAEE872000391C9 /* Sources */,
+				B74EA9222AAEE872000391C9 /* Frameworks */,
+				B74EA9232AAEE872000391C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "vR2 VPN";
+			productName = "vR2 VPN";
+			productReference = B74EA9252AAEE872000391C9 /* vR2 VPN.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B74EA93D2AAEE874000391C9 /* vR2 VPNTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B74EA9552AAEE874000391C9 /* Build configuration list for PBXNativeTarget "vR2 VPNTests" */;
+			buildPhases = (
+				B74EA93A2AAEE874000391C9 /* Sources */,
+				B74EA93B2AAEE874000391C9 /* Frameworks */,
+				B74EA93C2AAEE874000391C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B74EA9402AAEE874000391C9 /* PBXTargetDependency */,
+			);
+			name = "vR2 VPNTests";
+			productName = "vR2 VPNTests";
+			productReference = B74EA93E2AAEE874000391C9 /* vR2 VPNTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B74EA9472AAEE874000391C9 /* vR2 VPNUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B74EA9582AAEE874000391C9 /* Build configuration list for PBXNativeTarget "vR2 VPNUITests" */;
+			buildPhases = (
+				B74EA9442AAEE874000391C9 /* Sources */,
+				B74EA9452AAEE874000391C9 /* Frameworks */,
+				B74EA9462AAEE874000391C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B74EA94A2AAEE874000391C9 /* PBXTargetDependency */,
+			);
+			name = "vR2 VPNUITests";
+			productName = "vR2 VPNUITests";
+			productReference = B74EA9482AAEE874000391C9 /* vR2 VPNUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B74EA91D2AAEE872000391C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B74EA9242AAEE872000391C9 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					B74EA93D2AAEE874000391C9 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = B74EA9242AAEE872000391C9;
+					};
+					B74EA9472AAEE874000391C9 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = B74EA9242AAEE872000391C9;
+					};
+				};
+			};
+			buildConfigurationList = B74EA9202AAEE872000391C9 /* Build configuration list for PBXProject "vR2 VPN" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B74EA91C2AAEE872000391C9;
+			productRefGroup = B74EA9262AAEE872000391C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B74EA9242AAEE872000391C9 /* vR2 VPN */,
+				B74EA93D2AAEE874000391C9 /* vR2 VPNTests */,
+				B74EA9472AAEE874000391C9 /* vR2 VPNUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B74EA9232AAEE872000391C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74EA9382AAEE874000391C9 /* LaunchScreen.storyboard in Resources */,
+				B74EA9352AAEE874000391C9 /* Assets.xcassets in Resources */,
+				B74EA9302AAEE872000391C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B74EA93C2AAEE874000391C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B74EA9462AAEE874000391C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B74EA9212AAEE872000391C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74EA92D2AAEE872000391C9 /* ViewController.swift in Sources */,
+				B74EA9332AAEE872000391C9 /* vR2_VPN.xcdatamodeld in Sources */,
+				B74EA9292AAEE872000391C9 /* AppDelegate.swift in Sources */,
+				B74EA92B2AAEE872000391C9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B74EA93A2AAEE874000391C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74EA9432AAEE874000391C9 /* vR2_VPNTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B74EA9442AAEE874000391C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74EA94F2AAEE874000391C9 /* vR2_VPNUITestsLaunchTests.swift in Sources */,
+				B74EA94D2AAEE874000391C9 /* vR2_VPNUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B74EA9402AAEE874000391C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B74EA9242AAEE872000391C9 /* vR2 VPN */;
+			targetProxy = B74EA93F2AAEE874000391C9 /* PBXContainerItemProxy */;
+		};
+		B74EA94A2AAEE874000391C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B74EA9242AAEE872000391C9 /* vR2 VPN */;
+			targetProxy = B74EA9492AAEE874000391C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B74EA92E2AAEE872000391C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B74EA92F2AAEE872000391C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B74EA9362AAEE874000391C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B74EA9372AAEE874000391C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B74EA9502AAEE874000391C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B74EA9512AAEE874000391C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B74EA9532AAEE874000391C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AG9B77ZJRG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "vR2 VPN/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "R2.vR2-VPN";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B74EA9542AAEE874000391C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AG9B77ZJRG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "vR2 VPN/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "R2.vR2-VPN";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B74EA9562AAEE874000391C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AG9B77ZJRG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "R2.vR2-VPNTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vR2 VPN.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/vR2 VPN";
+			};
+			name = Debug;
+		};
+		B74EA9572AAEE874000391C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AG9B77ZJRG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "R2.vR2-VPNTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vR2 VPN.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/vR2 VPN";
+			};
+			name = Release;
+		};
+		B74EA9592AAEE874000391C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AG9B77ZJRG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "R2.vR2-VPNUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "vR2 VPN";
+			};
+			name = Debug;
+		};
+		B74EA95A2AAEE874000391C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AG9B77ZJRG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "R2.vR2-VPNUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "vR2 VPN";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B74EA9202AAEE872000391C9 /* Build configuration list for PBXProject "vR2 VPN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B74EA9502AAEE874000391C9 /* Debug */,
+				B74EA9512AAEE874000391C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B74EA9522AAEE874000391C9 /* Build configuration list for PBXNativeTarget "vR2 VPN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B74EA9532AAEE874000391C9 /* Debug */,
+				B74EA9542AAEE874000391C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B74EA9552AAEE874000391C9 /* Build configuration list for PBXNativeTarget "vR2 VPNTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B74EA9562AAEE874000391C9 /* Debug */,
+				B74EA9572AAEE874000391C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B74EA9582AAEE874000391C9 /* Build configuration list for PBXNativeTarget "vR2 VPNUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B74EA9592AAEE874000391C9 /* Debug */,
+				B74EA95A2AAEE874000391C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B74EA9312AAEE872000391C9 /* vR2_VPN.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B74EA9322AAEE872000391C9 /* vR2_VPN.xcdatamodel */,
+			);
+			currentVersion = B74EA9322AAEE872000391C9 /* vR2_VPN.xcdatamodel */;
+			path = vR2_VPN.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B74EA91D2AAEE872000391C9 /* Project object */;
+}
